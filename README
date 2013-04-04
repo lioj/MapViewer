@@ -1,0 +1,21 @@
+This is Wt widget, that displays a map. It is intended to facilitate an introduction of a dynamic map in any web page.
+Copyright (C) 2012 Ramil Mintaev
+see AUTHORS file
+
+=======================================================================
+
+Runtime-requirements:
+ * Wt library 3.1.10+
+  * ubuntu: run `sudo add-apt-repository ppa:pgquiles/wt`
+  * debian: http://redmine.webtoolkit.eu/projects/wt/wiki/Installing_Wt_on_Debian
+ * run `sudo make dep` to install all runtime-only dependencies
+
+Build-requirements:
+ * Wt library 3.1.10+
+ * wt-classes library 1.1.0+
+ * run `sudo make build-dep` to install all build-only dependencies
+
+Build and run:
+ * run `make` to build the executable
+ * run `make run` to run the server
+
